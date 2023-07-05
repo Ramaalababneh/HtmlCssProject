@@ -218,7 +218,7 @@ h3
    font-size: small;
    text-align: center;
    width: 400px;
-   margin-left: 500px;
+   margin-left: 550px;
   }
 
 
@@ -291,20 +291,37 @@ h3
 
   @media screen and (max-width: 480px) 
   {
+    nav a 
+    {
+      font-size: 80px;
+    }
+
+    h1 
+    {
+      font-size: 100px;
+    }
+
+
+
+
     .left 
     {
-      width: 500px;
+      width: 800px;
       height: 700px;
+      grid-column: 1/12;
     }
     .left img
     {
-      width: 500px;
+      width: 700px;
       height: 700px;
+      grid-column: 1/12;
     }
 
     .right
     {
       padding: 30px;
+      grid-column: 1/12;
+      font-size: 40px;
     }
     
     .left2
@@ -348,6 +365,13 @@ h3
   display: grid;
   grid-template-areas: "left right";
   gap: 35px;
+  font-size: 90px;
+}
+
+.container1 h3 
+{
+  font-size: 60px;
+
 }
 
 #Experience
@@ -369,6 +393,7 @@ h3
   margin-left: 350px;
    
  }
+
 
  .contactme
  {
