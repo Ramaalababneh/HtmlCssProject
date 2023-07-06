@@ -52,9 +52,7 @@
     
     display: grid;
     grid-template-areas: "left right";
-    gap: 35px;
-    
-    
+    gap: 35px;   
 }
 
 .container1
@@ -79,9 +77,7 @@
     right: 20px;
     height: 500px;
     width: 350px;
-    position: absolute; 
-    
-   
+    position: absolute;    
 }
 .left:hover{
     transform: scale(-1, 1);
@@ -106,6 +102,19 @@ h3
     padding-left: 30%;
 }
 
+.para
+{
+  font-size: 30px;
+  width: 400px;
+  margin-left: 550px;
+}
+
+.projectss
+{
+  width: 600px;
+  margin-left: 430px;
+  font-size: 50px;
+}
 /**/
 
 .Projects-section {
@@ -285,6 +294,30 @@ h3
    width: 400px;
    margin-left: 290px;
   }
+
+
+  .para
+{
+  font-size: 30px;
+  width: 400px;
+  margin-left: 250px;
+}
+.projectss
+{
+  width: 600px;
+  margin-left: 100px;
+  font-size: 50px;
+}
+
+.skillss
+{
+ margin-left: 200px;
+ font-size: 50px; 
+}
+
+.footer-section{
+  width:1000px;
+}
 }
 
   /*media Quiry phone*/
@@ -381,20 +414,32 @@ h3
 
 .projectss
 {
-  margin-left: 90px;
+  width: 600px;
+  margin-left: 40px;
+  font-size: 90px;
+}
+
+.para
+{
+  font-size: 40px;
+  width: 600px;
+  margin-left: 100px;
 }
  .navbar-toggler
  {
    color: bisque;
+   font-size: 40px;
  }
+.navbar img 
+{
+  height:90px;
+}
 
  .skillss
  {
   margin-left: 350px;
-   
+  font-size: 90px; 
  }
-
-
  .contactme
  {
   margin-left: 270px;
@@ -418,14 +463,72 @@ h3
 }
  .copyRight
  {
-  font-size: small;
+  font-size: x-large;
   text-align: center;
-  width: 400px;
+  width: 450px;
   margin-left: 210px;
  }
 
+ .figure1 {
+    grid-column: 1/12;
+  }
+  .grid-figure {
+    margin-left: 100px;  /* animationed*/
+  }
+  .project-animation {
+    min-width: 300px;
+    max-width: 500px;
+    max-height: 500px;
+    height: 300px;
+  }
+
+  .project-animation img {
+    width: 500px;
+    transform-origin: 50% 100%;
+  }
+  .project-animation h3 {
+    font-size: 25px;
+  }
+  .project-animation p {
+    font-size: 30px;
+  }
+  .project-animation .github {
+    padding: 3px;
+    font-size: 30px;
+  }
+
+#Experience
+{
+  margin-bottom: 250px;
+  margin-left: 100px;
+}
+
+  }
 
 
+  .grid-footer {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 50px;
+    background-color: #393E46;
+    width: 100%;
+  }
+  .footer-section{
+    width:1000px;
+  }
+  
+  .contact-info h5 {
+    font-size: 25px;
+    color: #6D9886;
+    font-weight: bolder;
+  }
+  .contact-info {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .links-foot {
+    color: #6D9886;
+    font-size: 20px;
   }
 
 
